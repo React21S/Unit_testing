@@ -1,4 +1,4 @@
-[![Unit-TestingCD](https://github.com/React21S/Unit_testing/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/Unit_testing/actions)
+[![UnitTesting](https://github.com/React21S/Unit_testing/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/Unit_testing/actions/new)
 
 # Unit testing with jest
 - [Jest test getting-started](https://jestjs.io/docs/getting-started)
