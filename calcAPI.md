@@ -49,19 +49,19 @@ to
 (underscore underscore tests underscore underscore )
 `__tests__`
 
-### 6. Write tests
 
-### 7. Run tests
+### 6. Run tests
 ```shell
 > npm test
 ```
 
-### 7B. To run only one test file
+### 6B. To run only one test file
 - test all file that have name test in it
 ```shell
 > npm test --testFile fileToBETested.test.js
 ```
 
+---
 # Procedure in calc library API
 
 ## **sum(a,b)**
@@ -79,8 +79,9 @@ Returns the difference of given numbers
 -   if parameter is missing, throws an exception:`'only number allowed'`
 
 
-### Test cases
+### **Test cases**
 
+---
 #### Sums
 
 
@@ -121,6 +122,7 @@ sum('') throws an exception `'parameter missing'`
 -   sum(null, 1) throws an exception `'only number allowed'`
 -   sum('1','2') throws an exception `'only number allowed'`
 
+---
 #### Subtract
 
 
