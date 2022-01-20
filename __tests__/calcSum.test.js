@@ -88,3 +88,19 @@ describe('Test Parameter are not numbers', ()=>{
         expect(()=>sum(a,b)).toThrow('only numbers allowed')
     })
 })
+
+
+// another method with function application 
+describe('Test Parameter are not numbers', ()=>{
+    const testValues=[
+        ['a', 1],
+        [1, 'a'],
+        ['a', 'b'],
+        ['', ''],
+        ['1', '2'],
+    ];
+    const testfunction = test.each(testValues);
+    testfunction('sum(%s,%s) throws exception: "only numbers allowed"', (a,b)=>{
+        expect(()=>sum(a,b)).toThrow('only numbers allowed')
+    })
+})

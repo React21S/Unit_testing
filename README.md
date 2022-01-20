@@ -58,7 +58,8 @@ to
 > npm test
 ```
 
-### 7B. To run only one test file
+### 7B. To run only one test file 
+-   for example (npm test ---testFile calcSum.test.js)
 - test all file that have name test in it
 ```shell
 > npm test --testFile fileToBETested.test.js
@@ -162,3 +163,12 @@ subtract('') throws an exception `'parameter missing'`
 -   subtract('','') throws an exception `'only number allowed'`
 -   subtract(null, 1) throws an exception `'only number allowed'`
 -   subtract('1','2') throws an exception `'only number allowed'`
+
+
+#### Divide
+
+test:
+[0,0, Number.NaN],
+[2,0, Number.POSITIVE_INFINITY],
+[-2,0, Number.NEGATIVE_INFINITY],
+[ Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY, Number.NaN],

@@ -19,4 +19,13 @@ function subtract (a,b){
     return a-b;
 }
 
-module.exports={sum, subtract};
+// // or another short form is there is no error to throw
+// function subtract(a,b){
+//     return(a-b)
+// }
+
+function divide(a,b){
+    return a/b
+}
+
+module.exports={sum, subtract, divide};
